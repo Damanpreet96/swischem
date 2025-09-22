@@ -513,3 +513,6 @@ div#mini_contact_form {
     border: none;
     margin-top: 15px;
 }
+button.btn.btn-primary.w-100.color {
+    background-color: #004394;
+}
