@@ -482,4 +482,34 @@ a.btn.btn-outline-secondary.call-btn {
   a.btn.btn-primary.call-btn, a.btn.btn-outline-secondary.call-btn {
     display: grid;
 }
+.footer-form  {
+  display: none;
+}
+}
+
+.footer-form {
+    position: fixed;
+    right: 15px;
+    bottom: 0;
+    z-index: 1000;
+    width: 286px;
+}
+.footer-form .heading-look {
+    font-size: 24px;
+    background: #c00415;
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 4px 0;
+    cursor: pointer;
+}
+div#mini_contact_form {
+    padding: 10px;
+    display:none;
+    background: #ffff;
+}
+.footer-form  button.btn.first.btn-primary.text-center {
+    background-color: #004394;
+    border: none;
+    margin-top: 15px;
 }
