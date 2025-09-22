@@ -472,3 +472,14 @@ section.product-section {
 section#faq {
     background-color: #fff;
 }
+a.btn.btn-outline-secondary.call-btn {
+    background-color: #c00415;
+    color: #fff;
+    border: none;
+}
+
+@media (max-width:768px) {
+  a.btn.btn-primary.call-btn, a.btn.btn-outline-secondary.call-btn {
+    display: grid;
+}
+}
