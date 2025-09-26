@@ -61,16 +61,18 @@
 
         <!-- Mobile actions inside menu -->
         <li class="nav-item d-lg-none mt-3">
-          <a href="tel:+919878885171" class="btn btn-outline-primary w-100 mb-2"><i class="bi bi-telephone me-1"></i> Call</a>
-          <a target="_blank" rel="noopener" href="https://wa.me/919878885171" class="btn btn-success w-100"><i class="bi bi-whatsapp me-1"></i> WhatsApp</a>
+          <!-- <a href="tel:+919878885171" class="btn btn-outline-primary w-100 mb-2"><i class="bi bi-telephone me-1"></i> Call</a>
+          <a target="_blank" rel="noopener" href="https://wa.me/919878885171" class="btn btn-success w-100"><i class="bi bi-whatsapp me-1"></i> WhatsApp</a> -->
+         <button class="btn btn-outline-primary envelope" data-bs-toggle="modal" data-bs-target="#myModal"><i class="bi bi-envelope"></i> &nbsp;Contact Us</button>
         </li>
       </ul>
     </div>
 
     <!-- Right: Actions (desktop) -->
    <div class="d-none d-lg-flex gap-2 ms-auto order-3">
-      <a href="tel:+919878885171" class="btn btn-outline-primary" style="background: #c00415;color: #fff;border: 0;"><i class="bi bi-telephone me-1"></i> Call Now </a>
-      <a target="_blank" rel="noopener" href="https://wa.me/919878885171" class="btn btn-success" style="border: 0;"><i class="bi bi-whatsapp me-1"></i> WhatsApp</a>
+      <!-- <a href="tel:+919878885171" class="btn btn-outline-primary" style="background: #c00415;color: #fff;border: 0;"><i class="bi bi-telephone me-1"></i> Call Now </a>
+      <a target="_blank" rel="noopener" href="https://wa.me/919878885171" class="btn btn-success" style="border: 0;"><i class="bi bi-whatsapp me-1"></i> WhatsApp</a> -->
+      <button class="btn btn-outline-primary envelope" data-bs-toggle="modal" data-bs-target="#myModal"><i class="bi bi-envelope"></i> &nbsp;Contact Us</button>
     </div>
   </div>
 </nav>
@@ -233,74 +235,57 @@
   </section>
   <!-- Cardio Range (unchanged) -->
   <section id="cardio" class="py-5 bg-light">
-    <div class="container">
-      <div class="section-title">
-        <div class="subtitle">Our Products</div>
-        <h2>Cardio Range</h2>
-        <p class="text-muted">Evidence-based formulations for cardiovascular care.</p>
-      </div>
-      
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-3">
-          <div class="product-card">
-            <span class="badge bg-primary mb-2">Fast-Moving</span>
-            <h3>Atorvastatin 10 mg</h3>
-            <p class="text-muted small">Tablet | Lipid-lowering</p>
-            <ul class="ps-3 small">
-              <li>Stable supply</li>
-              <li>Competitive pricing</li>
-              <li>WHO-GMP certified</li>
-            </ul>
-           <button class="btn btn-outline-primary btn-sm mt-2" id="modal-open" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
-          </div>
-        </div>
-        
-        <div class="col-md-6 col-lg-3">
-          <div class="product-card">
-            <h3>Clopidogrel 75 mg</h3>
-            <p class="text-muted small">Tablet | Antiplatelet</p>
-            <ul class="ps-3 small">
-              <li>High bioavailability</li>
-              <li>Consistent quality</li>
-              <li>Batch tracking</li>
-            </ul>
-           <button class="btn btn-outline-primary btn-sm mt-2" id="modal-open" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
-          </div>
-        </div>
-        
-        <div class="col-md-6 col-lg-3">
-          <div class="product-card">
-            <span class="badge bg-primary mb-2">New</span>
-            <h3>Aspirin 75 mg</h3>
-            <p class="text-muted small">Tablet | Blood thinner</p>
-            <ul class="ps-3 small">
-              <li>Enteric-coated</li>
-              <li>GI protection</li>
-              <li>Stable formulation</li>
-            </ul>
-           <button class="btn btn-outline-primary btn-sm mt-2" id="modal-open" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
-          </div>
-        </div>
-        
-        <div class="col-md-6 col-lg-3">
-          <div class="product-card">
-            <h3>Ramipril 5 mg</h3>
-            <p class="text-muted small">Tablet | ACE Inhibitor</p>
-            <ul class="ps-3 small">
-              <li>Effective BP control</li>
-              <li>Minimal side effects</li>
-              <li>Trusted formulation</li>
-            </ul>
-           <button class="btn btn-outline-primary btn-sm mt-2" id="modal-open" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
-          </div>
+  <div class="container">
+    <div class="section-title">
+      <div class="subtitle">Our Products</div>
+      <h2>Cardio Range</h2>
+      <p class="text-muted">Evidence-based formulations for cardiovascular care.</p>
+    </div>
+    
+    <div class="row g-4">
+      <!-- Product 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="product-card text-center">
+          <img src="images/product/cardio.webp" alt="Atorvastatin 10 mg" class="img-fluid mb-3">
+          <h3 class="h6">Telscort 40</h3>
+          <button class="btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
         </div>
       </div>
-      
-      <div class="text-center mt-4">
-        <a href="#enquiry" class="btn btn-primary">Download Full Cardio Catalog</a>
+
+      <!-- Product 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="product-card text-center">
+          <img src="images/product/cardio1.webp" alt="Clopidogrel 75 mg" class="img-fluid mb-3">
+          <h3 class="h6">Swissiva 5</h3>
+          <button class="btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="product-card text-center">
+          <img src="images/product/cardio3.webp" alt="Aspirin 75 mg" class="img-fluid mb-3">
+          <h3 class="h6">Bisobet 5</h3>
+          <button class="btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="product-card text-center">
+          <img src="images/product/cardio4.webp" alt="Ramipril 5 mg" class="img-fluid mb-3">
+          <h3 class="h6">Atorchem Gold 20</h3>
+          <button class="btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
+        </div>
       </div>
     </div>
-  </section>
+
+    <div class="text-center mt-4">
+      <a href="#enquiry" class="btn btn-primary">Download Full Cardio Catalog</a>
+    </div>
+  </div>
+</section>
+
 
   <!-- Diabetic Range (unchanged) -->
   <section id="diabetic" class="py-5 bg-white">
@@ -312,59 +297,37 @@
       </div>
       
       <div class="row g-4">
-        <div class="col-md-6 col-lg-3">
-          <div class="product-card">
-            <span class="badge bg-primary mb-2">Best Seller</span>
-            <h3>Metformin 500 mg</h3>
-            <p class="text-muted small">Tablet | Biguanide</p>
-            <ul class="ps-3 small">
-              <li>High volume capacity</li>
-              <li>Consistent quality</li>
-              <li>Cost-effective</li>
-            </ul>
-           <button class="btn btn-outline-primary btn-sm mt-2" id="modal-open" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
-          </div>
+         <div class="col-md-6 col-lg-3">
+        <div class="product-card text-center">
+          <img src="images/product/diabe.webp" alt="Atorvastatin 10 mg" class="img-fluid mb-3">
+          <h3 class="h6">Empaswiss L 10/5</h3>
+          <button class="btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
         </div>
+      </div>
         
-        <div class="col-md-6 col-lg-3">
-          <div class="product-card">
-            <h3>Glimepiride 1/2 mg</h3>
-            <p class="text-muted small">Tablet | Sulfonylurea</p>
-            <ul class="ps-3 small">
-              <li>Precise dosing</li>
-              <li>Rapid action</li>
-              <li>Stable shelf life</li>
-            </ul>
-           <button class="btn btn-outline-primary btn-sm mt-2" id="modal-open" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
-          </div>
+     <div class="col-md-6 col-lg-3">
+        <div class="product-card text-center">
+          <img src="images/product/diabe2.webp" alt="Atorvastatin 10 mg" class="img-fluid mb-3">
+          <h3 class="h6">Nuvichem M</h3>
+          <button class="btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
         </div>
+      </div>
         
-        <div class="col-md-6 col-lg-3">
-          <div class="product-card">
-            <h3>Voglibose 0.2/0.3 mg</h3>
-            <p class="text-muted small">Tablet | Alpha-glucosidase</p>
-            <ul class="ps-3 small">
-              <li>Postprandial control</li>
-              <li>Well tolerated</li>
-              <li>Flexible dosing</li>
-            </ul>
-           <button class="btn btn-outline-primary btn-sm mt-2" id="modal-open" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
-          </div>
+         <div class="col-md-6 col-lg-3">
+        <div class="product-card text-center">
+          <img src="images/product/diabetic1.webp" alt="Atorvastatin 10 mg" class="img-fluid mb-3">
+          <h3 class="h6">Vildachem DM 500 SR</h3>
+          <button class="btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
         </div>
+      </div>
         
-        <div class="col-md-6 col-lg-3">
-          <div class="product-card">
-            <span class="badge bg-primary mb-2">Combination</span>
-            <h3>Metformin + Glimepiride</h3>
-            <p class="text-muted small">Tablet | Dual action</p>
-            <ul class="ps-3 small">
-              <li>Enhanced efficacy</li>
-              <li>Patient convenience</li>
-              <li>Cost-effective</li>
-            </ul>
-           <button class="btn btn-outline-primary btn-sm mt-2" id="modal-open" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
-          </div>
+       <div class="col-md-6 col-lg-3">
+        <div class="product-card text-center">
+          <img src="images/product/EMPASWISS-M-12.5-500-TAB.-3D.webp" alt="Atorvastatin 10 mg" class="img-fluid mb-3">
+          <h3 class="h6">Empaswiss M 12.5/500</h3>
+          <button class="btn btn-outline-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#myModal">Request Quote</button>
         </div>
+      </div>
       </div>
       
       <div class="text-center mt-4">
@@ -710,7 +673,7 @@
             </div>
             <div class="flex-grow-1 ms-3">
               <h6>Phone</h6>
-              <p class="mb-0"><a href="tel:+918872056703">+91 8872056703</a></p>
+              <p class="mb-0"><a href="tel:+919878885171">+91 9878885171</a></p>
             </div>
           </div>
           
@@ -720,7 +683,7 @@
             </div>
             <div class="flex-grow-1 ms-3">
               <h6>WhatsApp</h6>
-              <p class="mb-0"><a href="https://wa.me/918872056703">+91 8872056703</a></p>
+              <p class="mb-0"><a href="https://wa.me/919878885171">+91 9878885171</a></p>
             </div>
           </div>
           
@@ -730,7 +693,7 @@
             </div>
             <div class="flex-grow-1 ms-3">
               <h6>Email</h6>
-              <p class="mb-0"><a href="mailto:info@cardiochem.in">info@cardiochem.in</a></p>
+              <p class="mb-0"><a href="mailto:swastikportal2025@gmail.com">swastikportal2025@gmail.com</a></p>
             </div>
           </div>
         </div>

@@ -440,6 +440,11 @@ section.hair-range {
 	background: #eef2ff;
 	color: #4338ca;
 }
+button.btn.btn-outline-primary.envelope {
+    background-color: #004394;
+    border: none;
+    color: #fff;
+}
 
 @media (min-width:992px) {
 	.hero {
